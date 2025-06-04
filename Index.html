@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias Ampuero - Diseñador Freelancer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("cz3FcwvROXlI7f8Np"); // Reemplazar con tu Public Key de EmailJS
+        })();
+    </script>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <style>
+        #inicio {
+            background-image: url('img/fondo-ejemplo.jpg'); /* Cambia por tu imagen */
+            background-size: cover;
+            background-position: center;
+            transition: background-position 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h1 class="animate__animated animate__fadeIn">Matias Ampuero <span class="text-metallic-red">freelancer</span></h1>
+            <nav>
+                <a href="#inicio" class="animate__animated animate__fadeInDown">Inicio</a>
+                <a href="#sobre-mi" class="animate__animated animate__fadeInDown" style="animation-delay: 0.2s">Sobre mi</a>
+                <a href="#servicios" class="animate__animated animate__fadeInDown" style="animation-delay: 0.4s">Servicios</a>
+                <a href="#proyectos" class="animate__animated animate__fadeInDown" style="animation-delay: 0.5s">Proyectos</a>
+                <a href="#contacto" class="animate__animated animate__fadeInDown" style="animation-delay: 0.6s">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="video-bg-container">
+                <video autoplay loop muted playsinline class="video-bg">
+                    <source src="img/e94fd783-16c1-47ee-8107-c23fdd2f0ffc.mp4.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="contenedor">
+                <h2 class="animate__animated animate__fadeInUp underline-red">Desarrollo & Ciberseguridad</h2>
+                <p class="animate__animated animate__fadeInUp" style="animation-delay: 0.2s"><span style="font-size:1.2em;vertical-align:middle;">📍</span> Santiago, Chile</p>
+                <a href="#servicios" class="btn-scroll animate__animated animate__fadeInUp" style="animation-delay: 0.4s">Conoce mis servicios</a>
+            </div>
+            <div class="particles-container" id="particles-js"></div>
+            <div class="mouse-scroll-animation">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="sobre-mi">
+            <div class="contenedor">
+                <h2 data-aos="fade-up" class="underline-red">Sobre Mí</h2>
+                <div class="sobre-mi-grid">
+                    <div class="sobre-mi-imagen" data-aos="fade-right">
+                        <img src="img/perfil.jpg" alt="Matias Ampuero" loading="lazy">
+                        <div class="sobre-mi-badges">
+                            <span class="badge">Desarrollo Web</span>
+                            <span class="badge">Ciberseguridad</span>
+                            <span class="badge">UI/UX</span>
+                        </div>
+                    </div>
+                    <div class="sobre-mi-contenido" data-aos="fade-left">
+                        <h3>Desarrollador & Consultor de Ciberseguridad</h3>
+                        <p class="sobre-mi-descripcion">
+                            Soy un desarrollador web y consultor de ciberseguridad apasionado por crear soluciones digitales innovadoras y seguras. Con más de 5 años de experiencia en el sector, me especializo en el desarrollo de aplicaciones web modernas y la implementación de medidas de seguridad robustas.
+                        </p>
+                        <div class="sobre-mi-habilidades">
+                            <div class="habilidad">
+                                <span class="habilidad-nombre">Desarrollo Web</span>
+                                <div class="habilidad-barra">
+                                    <div class="habilidad-progreso" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="habilidad">
+                                <span class="habilidad-nombre">Ciberseguridad</span>
+                                <div class="habilidad-barra">
+                                    <div class="habilidad-progreso" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="habilidad">
+                                <span class="habilidad-nombre">UI/UX Design</span>
+                                <div class="habilidad-barra">
+                                    <div class="habilidad-progreso" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sobre-mi-cta">
+                            <a href="#contacto" class="btn-contacto">Contáctame</a>
+                            <a href="#" class="btn-cv">Descargar CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="servicios">
+            <div class="contenedor">
+                <h2 data-aos="fade-up" class="underline-red">Servicios Profesionales</h2>
+                <div class="servicios-grid">
+                    <div class="servicio-item" data-aos="fade-up">
+                        <div class="servicio-image-container">
+                            <img src="img/diseno-web.jpg" alt="Diseño Web" loading="lazy">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <span class="icon">🎨</span>
+                                    <span class="text">Diseño Creativo</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="servicio-info">
+                            <h3>Diseño Web</h3>
+                            <p>Creamos sitios web modernos y seguros que reflejan la identidad de tu marca. Nuestro enfoque combina diseño atractivo con funcionalidad intuitiva.</p>
+                        </div>
+                    </div>
+
+                    <div class="servicio-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="servicio-image-container">
+                            <img src="img/apps-moviles.jpg" alt="Aplicaciones Móviles" loading="lazy">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <span class="icon">📱</span>
+                                    <span class="text">Apps Nativas</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="servicio-info">
+                            <h3>Aplicaciones Móviles</h3>
+                            <p>Desarrollamos aplicaciones móviles nativas y multiplataforma que ofrecen una experiencia de usuario excepcional y alto rendimiento.</p>
+                        </div>
+                    </div>
+
+                    <div class="servicio-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="servicio-image-container">
+                            <img src="img/ecommerce.jpg" alt="E-commerce" loading="lazy">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <span class="icon">🛍️</span>
+                                    <span class="text">Tiendas Online</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="servicio-info">
+                            <h3>E-commerce</h3>
+                            <p>Implementamos soluciones de comercio electrónico seguras y escalables que impulsan tus ventas online con una experiencia de compra optimizada.</p>
+                        </div>
+                    </div>
+
+                    <div class="servicio-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="servicio-image-container">
+                            <img src="img/ciberseguridad.jpg" alt="Ciberseguridad" loading="lazy">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <span class="icon">🔒</span>
+                                    <span class="text">Ciberseguridad</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="servicio-info">
+                            <h3>Ciberseguridad</h3>
+                            <p>Protegemos tu negocio con soluciones integrales de seguridad digital, asegurando la integridad y confidencialidad de tus datos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="proyectos">
+            <div class="contenedor">
+                <h2 data-aos="fade-up" class="underline-red">Mi Portafolio</h2>
+                <div class="filtros-portafolio" data-aos="fade-up">
+                    <button class="filtro-btn active" data-filter="todos">Todos</button>
+                    <button class="filtro-btn" data-filter="web">Web</button>
+                    <button class="filtro-btn" data-filter="apps">Apps</button>
+                    <button class="filtro-btn" data-filter="diseno">Diseño</button>
+                </div>
+                <div class="proyectos-grid">
+                    <div class="proyecto-item" data-categoria="web" data-aos="fade-up">
+                        <div class="proyecto-image-container">
+                            <img src="img/proyecto1.jpg" alt="Proyecto Web" loading="lazy">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <span class="icon">💻</span>
+                                    <span class="text">Ver Proyecto</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-info">
+                            <h3>E-commerce Moderno</h3>
+                            <p>Tienda online con sistema de pagos integrado y panel de administración personalizado.</p>
+                            <div class="proyecto-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Stripe</span>
+                            </div>
+                            <div class="proyecto-links">
+                                <a href="#" class="btn-demo" target="_blank">Ver Demo</a>
+                                <a href="#" class="btn-code" target="_blank">Ver Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proyecto-item" data-categoria="apps" data-aos="fade-up" data-aos-delay="100">
+                        <div class="proyecto-image-container">
+                            <img src="img/proyecto2.jpg" alt="App Móvil" loading="lazy">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <span class="icon">📱</span>
+                                    <span class="text">Ver Proyecto</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-info">
+                            <h3>App de Fitness</h3>
+                            <p>Aplicación móvil para seguimiento de rutinas de ejercicio y nutrición.</p>
+                            <div class="proyecto-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                            </div>
+                            <div class="proyecto-links">
+                                <a href="#" class="btn-demo" target="_blank">Ver Demo</a>
+                                <a href="#" class="btn-code" target="_blank">Ver Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proyecto-item" data-categoria="diseno" data-aos="fade-up" data-aos-delay="200">
+                        <div class="proyecto-image-container">
+                            <img src="img/proyecto3.jpg" alt="Diseño UI/UX" loading="lazy">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <span class="icon">🎨</span>
+                                    <span class="text">Ver Proyecto</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-info">
+                            <h3>Rediseño de Marca</h3>
+                            <p>Renovación completa de identidad visual para empresa de tecnología.</p>
+                            <div class="proyecto-tags">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>Branding</span>
+                            </div>
+                            <div class="proyecto-links">
+                                <a href="#" class="btn-demo" target="_blank">Ver Proyecto</a>
+                                <a href="#" class="btn-code" target="_blank">Ver Proceso</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="contacto">
+            <div class="contenedor">
+                <form id="contact-form" onsubmit="return sendEmail(event)">
+                    <legend class="underline-red">Contacto</legend>
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <span class="input-icon">&#128100;</span>
+                        <input type="text" name="user_name" placeholder="Tu nombre" required class="input-animation">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Email</label>
+                        <span class="input-icon">&#9993;</span>
+                        <input type="email" name="user_email" placeholder="Tu email" required class="input-animation">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Servicio de interés</label>
+                        <span class="input-icon">&#128187;</span>
+                        <select name="service" class="input-animation" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="web">Diseño Web</option>
+                            <option value="apps">Aplicaciones Móviles</option>
+                            <option value="ecommerce">E-commerce</option>
+                            <option value="security">Ciberseguridad</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mensaje</label>
+                        <span class="input-icon">&#9998;</span>
+                        <textarea name="message" placeholder="Cuéntame sobre tu proyecto" required class="input-animation"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">
+                            <span>Enviar mensaje</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p>© 2024 Matias Ampuero. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Inicializar AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        // Configuración de particles.js
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: '#ffffff'
+                },
+                shape: {
+                    type: 'circle'
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false
+                },
+                size: {
+                    value: 3,
+                    random: true
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: '#ffffff',
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 6,
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false
+                }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'repulse'
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push'
+                    },
+                    resize: true
+                }
+            },
+            retina_detect: true
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animación para inputs del formulario
+        document.querySelectorAll('.input-animation').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('focused');
+            });
+            input.addEventListener('blur', function() {
+                if (!this.value) {
+                    this.parentElement.classList.remove('focused');
+                }
+            });
+        });
+
+        // Función para enviar el email
+        function sendEmail(e) {
+            e.preventDefault();
+
+            const submitBtn = document.querySelector('.submit-btn');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = 'Enviando...';
+            submitBtn.disabled = true;
+
+            const templateParams = {
+                user_name: document.querySelector('input[name="user_name"]').value,
+                user_email: document.querySelector('input[name="user_email"]').value,
+                service: document.querySelector('select[name="service"]').value,
+                message: document.querySelector('textarea[name="message"]').value
+            };
+
+            emailjs.send('service_mi9z3sr', 'template_xmjnkto', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert('¡Mensaje enviado con éxito!');
+                    document.getElementById('contact-form').reset();
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    alert('Hubo un error al enviar el mensaje. Por favor, intenta nuevamente.');
+                })
+                .finally(function() {
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                });
+
+            return false;
+        }
+
+        // Parallax con el mouse en #inicio
+        document.addEventListener('mousemove', function(e) {
+            const x = (e.clientX / window.innerWidth) * 20;
+            const y = (e.clientY / window.innerHeight) * 20;
+            document.getElementById('inicio').style.backgroundPosition = `${50 + x}% ${50 + y}%`;
+        });
+
+        // Filtrado de proyectos
+        const filtros = document.querySelectorAll('.filtro-btn');
+        const proyectos = document.querySelectorAll('.proyecto-item');
+
+        filtros.forEach(filtro => {
+            filtro.addEventListener('click', () => {
+                // Remover clase active de todos los botones
+                filtros.forEach(btn => btn.classList.remove('active'));
+                // Agregar clase active al botón clickeado
+                filtro.classList.add('active');
+
+                const categoria = filtro.getAttribute('data-filter');
+
+                proyectos.forEach(proyecto => {
+                    if (categoria === 'todos' || proyecto.getAttribute('data-categoria') === categoria) {
+                        proyecto.style.display = 'block';
+                        setTimeout(() => {
+                            proyecto.style.opacity = '1';
+                            proyecto.style.transform = 'translateY(0)';
+                        }, 100);
+                    } else {
+                        proyecto.style.opacity = '0';
+                        proyecto.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            proyecto.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
