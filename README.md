@@ -24,7 +24,7 @@ Portfolio personal que muestra mis servicios como desarrollador web y consultor 
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/portfolio.git
+git clone https://github.com/Matias-Ampuero/Portafolio.git
 ```
 
 2. Abre el archivo `index.html` en tu navegador
@@ -46,6 +46,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📧 Contacto
 
-Matias Ampuero - [@tu_twitter](https://twitter.com/tu_twitter)
+Matias Ampuero - [@Matias-Ampuero](https://github.com/Matias-Ampuero)
 
-Link del proyecto: [https://github.com/tu-usuario/portfolio](https://github.com/tu-usuario/portfolio) 
+Link del proyecto: [https://github.com/Matias-Ampuero/Portafolio](https://github.com/Matias-Ampuero/Portafolio) 
